@@ -1,0 +1,74 @@
+:root{
+    --color:#FE5E35;
+}
+*{
+    font-family: 'Lato', sans-serif
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+.nav-items{
+    display: flex;
+    justify-content: space-around;
+    width: 40vw;
+    border: 2px solid red;
+}
+.nav-item:hover{
+    color: var(
+        --color
+    );
+    
+}
+.intro-section{
+    display: flex;
+}
+[alt="headphone"]{
+    width: 20vw;
+    height: 40vh;
+    position: absolute;
+    right: 10rem;
+    top: 20rem;
+    
+}
+.left-section{
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 2rem;
+}
+.left-section>h3{
+    font-size: 34px;
+    border: 2px solid red;
+    width: max-content;
+    font-weight: 200;
+}
+.left-section>h1{
+    border: 2px solid green;
+    font-weight: 1500;
+    font-size: 50px;
+    font-family: 'Lato', sans-serif;
+font-family: 'Shantell Sans', cursive;
+}
+[alt="circles"]{
+    height: 25px;
+    width: 25px;
+}
+
+[ alt="plus"]{
+    background-color: var(
+        --color
+        
+    );
+    border-radius: 50%;
+    height: 18px;
+    width: 18px;
+    margin-right: 8px;
+}
+.sub-headlines{
+    margin-left: 3rem;
+    font-size: 23px;
+    
+}
