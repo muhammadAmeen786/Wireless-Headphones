@@ -72,3 +72,23 @@ font-family: 'Shantell Sans', cursive;
     font-size: 23px;
     
 }
+.text{
+    color: grey;
+    font-weight: 200;
+    font-size: small;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 20px;
+    margin-top: -1rem;
+    padding-bottom: 1rem;
+}
+.action-btn{
+    background-color: var(
+        --color 
+    );
+    height: 2rem;
+    width: 7rem;
+    border-radius: 3rem;
+    border: none;
+    font-weight: 400;
+    color: white;
+}
