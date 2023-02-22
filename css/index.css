@@ -22,6 +22,7 @@ nav{
     color: var(
         --color
     );
+    cursor: pointer;
     
 }
 .intro-section{
@@ -100,6 +101,9 @@ font-family: 'Shantell Sans', cursive;
     color: white;
     
 }
+.action-btn:hover{
+    cursor: pointer;
+}
 .action-btns>.action-btn{
     margin-left: 2rem;
 }
@@ -123,8 +127,30 @@ font-family: 'Shantell Sans', cursive;
     color: white;
 }
 .h1dis{
-    font-weight: 800;
+    font-weight: 700;
 }
 .headphone-div{
-    margin-top: 17rem;
+    margin-top: 16rem;
+    margin-left: 2rem;
+}
+.dots{
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    width: 7rem;
+    margin-left: 14rem;
+}
+.dot{
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+}
+.yellow-dot{
+    background-color: #c0c012;
+}
+.tomato-dot{
+    background-color: #ff6347;
+}
+.black-dot{
+    background-color: #000000;
 }
